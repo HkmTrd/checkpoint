@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+body {
+    font-family:  'Roboto', sans-serif;
+    padding: 50px;
+    background-color: #eee ;
+    
+  }
+    .logo {
+    color: red;
+    text-align: left;
+    margin: 10px;
+    text-shadow: #004AAD;
+    font-weight: bolder;
+}
+  .navbar {
+    overflow: auto;
+    color: #004AAD;
+    margin: 0px;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color:#004AAD ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0px;
+  }
+  
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  .subnavbtn  {
+    color:#004AAD;
+    
+  }
+  .subnavbtn:hover {
+    cursor: pointer;
+  }
+  .subnav  {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0 10px;
+  }
+  
+  .navbar a:hover, .subnav:hover, .subnavbtn:hover   {
+    background-color:whitesmoke;
+    color:black;
+  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #004AAD;;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+.youtubevid {
+  margin: 20px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+}
+.youtubevid a {
+  text-decoration: none;
+  color: #fff;
+}
+h1, h2 {
+  margin-top: 100px;
+}
+#contact {
+  margin: 10px;
+}
+span{
+  display: grid;
+  grid-template-columns: 60% 60%;
+
+}
+.grid {
+    margin: 0 10px;
+    box-sizing: inherit;
+}
+
+ div > p {
+   background-color: #eee;
+  justify-content:center;
+  margin-bottom: 50px;
+ }
+footer {
+  color: purple;
+}
+.part {
+  width: 50%;
+}
+
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.devimg {
+display:block;
+border-radius: 10px;
+
+
+}
